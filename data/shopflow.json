@@ -1,0 +1,280 @@
+{
+  "products": [
+    {
+      "id": "P001",
+      "name": "Audifonos Bluetooth",
+      "category": "Tecnologia",
+      "price": 89900,
+      "stock": 901
+    },
+    {
+      "id": "P004",
+      "name": "Camiseta Basica",
+      "category": "Ropa",
+      "price": 45000.0,
+      "stock": 187
+    },
+    {
+      "id": "P007",
+      "name": "Celular",
+      "category": "Electronica",
+      "price": 3000000.0,
+      "stock": 100
+    },
+    {
+      "id": "P005",
+      "name": "Mochila Urbana",
+      "category": "Accesorios",
+      "price": 120000.0,
+      "stock": 170
+    },
+    {
+      "id": "P002",
+      "name": "Mouse Gamer",
+      "category": "Tecnologia",
+      "price": 65000.0,
+      "stock": 298
+    },
+    {
+      "id": "P006",
+      "name": "Parlante Portatil",
+      "category": "Tecnologia",
+      "price": 139900.0,
+      "stock": 437
+    },
+    {
+      "id": "P003",
+      "name": "Teclado Mecanico",
+      "category": "Tecnologia",
+      "price": 189900.0,
+      "stock": 500
+    }
+  ],
+  "cart": [],
+  "orders": [
+    {
+      "id": "383BEC51",
+      "customer": "Hermes",
+      "created_at": "2026-11-11T16:26:13",
+      "items": [
+        {
+          "product_id": "P006",
+          "name": "Parlante Portatil",
+          "unit_price": 139900,
+          "quantity": 3
+        }
+      ],
+      "total": 419700.0,
+      "status": "PAGADO",
+      "discount_code": "",
+      "discount_amount": 0.0
+    },
+    {
+      "id": "614A361C",
+      "customer": "Jairo",
+      "created_at": "2026-11-11T16:52:33",
+      "items": [
+        {
+          "product_id": "P001",
+          "name": "Audifonos Bluetooth",
+          "unit_price": 89900,
+          "quantity": 4
+        },
+        {
+          "product_id": "P004",
+          "name": "Camiseta Basica",
+          "unit_price": 45000.0,
+          "quantity": 200
+        }
+      ],
+      "total": 9359600.0,
+      "status": "PAGADO",
+      "discount_code": "",
+      "discount_amount": 0.0
+    },
+    {
+      "id": "0BE19CAF",
+      "customer": "Hermes",
+      "created_at": "2026-11-11T17:17:47",
+      "items": [
+        {
+          "product_id": "P001",
+          "name": "Audifonos Bluetooth",
+          "unit_price": 89900,
+          "quantity": 10
+        }
+      ],
+      "total": 899000.0,
+      "status": "PAGADO",
+      "discount_code": "",
+      "discount_amount": 0.0
+    }
+  ],
+  "payment_queue": [],
+  "schema_version": 2,
+  "customers": [
+    {
+      "id": "C0001",
+      "name": "Susana Horia",
+      "phone": "8",
+      "email": "7",
+      "created_at": "2026-11-11T15:42:17"
+    },
+    {
+      "id": "C0002",
+      "name": "Hermes",
+      "phone": "9999",
+      "email": "u@gmail.com",
+      "created_at": "2026-11-11T16:26:13"
+    },
+    {
+      "id": "C0003",
+      "name": "Jairo",
+      "phone": "5553436",
+      "email": "j@gmail.com",
+      "created_at": "2026-11-11T16:52:33"
+    }
+  ],
+  "inventory_movements": [
+    {
+      "id": "M000001",
+      "product_id": "P001",
+      "product_name": "Audifonos Bluetooth",
+      "type": "ENTRADA",
+      "quantity": 500,
+      "reason": "Porque si",
+      "date": "2026-11-11T15:41:31"
+    },
+    {
+      "id": "M000002",
+      "product_id": "P001",
+      "product_name": "Audifonos Bluetooth",
+      "type": "ENTRADA",
+      "quantity": 3,
+      "reason": "Venta",
+      "date": "2026-11-11T16:25:08"
+    },
+    {
+      "id": "M000003",
+      "product_id": "P006",
+      "product_name": "Parlante Portatil",
+      "type": "RESERVA",
+      "quantity": 3,
+      "reason": "Pedido 383BEC51",
+      "date": "2026-11-11T16:26:13"
+    },
+    {
+      "id": "M000004",
+      "product_id": "P003",
+      "product_name": "Teclado Mecanico",
+      "type": "ENTRADA",
+      "quantity": 492,
+      "reason": "Edición desde catálogo",
+      "date": "2026-11-11T16:44:18"
+    },
+    {
+      "id": "M000005",
+      "product_id": "P006",
+      "product_name": "Parlante Portatil",
+      "type": "ENTRADA",
+      "quantity": 433,
+      "reason": "Edición desde catálogo",
+      "date": "2026-11-11T16:44:37"
+    },
+    {
+      "id": "M000006",
+      "product_id": "P002",
+      "product_name": "Mouse Gamer",
+      "type": "ENTRADA",
+      "quantity": 278,
+      "reason": "Edición desde catálogo",
+      "date": "2026-11-11T16:44:48"
+    },
+    {
+      "id": "M000007",
+      "product_id": "P005",
+      "product_name": "Mochila Urbana",
+      "type": "ENTRADA",
+      "quantity": 155,
+      "reason": "Edición desde catálogo",
+      "date": "2026-11-11T16:45:09"
+    },
+    {
+      "id": "M000008",
+      "product_id": "P004",
+      "product_name": "Camiseta Basica",
+      "type": "ENTRADA",
+      "quantity": 357,
+      "reason": "Edición desde catálogo",
+      "date": "2026-11-11T16:45:21"
+    },
+    {
+      "id": "M000009",
+      "product_id": "P001",
+      "product_name": "Audifonos Bluetooth",
+      "type": "RESERVA",
+      "quantity": 4,
+      "reason": "Pedido 614A361C",
+      "date": "2026-11-11T16:52:33"
+    },
+    {
+      "id": "M000010",
+      "product_id": "P004",
+      "product_name": "Camiseta Basica",
+      "type": "RESERVA",
+      "quantity": 200,
+      "reason": "Pedido 614A361C",
+      "date": "2026-11-11T16:52:33"
+    },
+    {
+      "id": "M000011",
+      "product_id": "P001",
+      "product_name": "Audifonos Bluetooth",
+      "type": "ENTRADA",
+      "quantity": 400,
+      "reason": "Falta de stock",
+      "date": "2026-11-11T17:15:40"
+    },
+    {
+      "id": "M000012",
+      "product_id": "P001",
+      "product_name": "Audifonos Bluetooth",
+      "type": "RESERVA",
+      "quantity": 10,
+      "reason": "Pedido 0BE19CAF",
+      "date": "2026-11-11T17:17:47"
+    }
+  ],
+  "promotions": [
+    {
+      "code": "J43F",
+      "percent": 80.0,
+      "active": true,
+      "created_at": "2026-11-11"
+    }
+  ],
+  "users": [
+    {
+      "username": "admin",
+      "salt": "65d9ea2c02efdc15121afa838ee08477",
+      "password_hash": "a6f1896db7a1efe843dce5a536f60287a76231505c20cdcfa01fcf5a21328fc4",
+      "role": "ADMIN",
+      "active": true
+    },
+    {
+      "username": "Johan",
+      "salt": "89998ad5ba6d04130e84a7bb8ac5b5fd",
+      "password_hash": "9ec62b1ae4ac29ceeb6e0e04392c731d28dcd6e2b354974b406d0ce089259394",
+      "role": "VENTAS",
+      "active": true
+    },
+    {
+      "username": "Tomas",
+      "salt": "b672fda2faf11103ee543440d9ed31ed",
+      "password_hash": "5add3b9c6ee3aadb4e84da4ee25a27df06fd4724068c613f2fa6eecd73df5e06",
+      "role": "INVENTARIO",
+      "active": true
+    }
+  ],
+  "audit_log": []
+}
